@@ -8,5 +8,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "dependencies": {
+    "turbo": "^2.8.0"
+  },
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "apps/**",
+    "packages/**"
+  ]
 }
